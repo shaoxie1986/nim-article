@@ -2,6 +2,8 @@
 
 ## 原文链接：[http://blog.csdn.net/dajiadexiaocao/article/details/46848175](http://blog.csdn.net/dajiadexiaocao/article/details/46848175)
 
+**以下是文章内容：**
+
 # Nim and OO, Part II
 
 **原文链接：http://goran.krampe.se/2014/10/31/nim-and-oo-part-ii/**
@@ -142,4 +144,5 @@ echo "All good."
 怎样在nim中使用泛型，对于已经很长一段时间没有使用泛型的一些人比如我，是一场头脑风暴。但是经过几个消失的折腾之后，它开始变得顺手。‘
 
 我猜想上面的唯一问题-事实上是默认的calcPrice()对basePrice()产生了一个额外的调用（但是仅仅是默认的，所以仅对于Bananas）所以一些周期消失除非nim优化了它。当然一个模版可能会解决一些事情。
+
 Posted by Göran Krampe Oct 31st, 2014  [Languages](http://goran.krampe.se/category/languages/), [Nim](http://goran.krampe.se/category/nim/), [Nimrod](http://goran.krampe.se/category/nimrod/), [OOP](http://goran.krampe.se/category/oop/), [Object orientation](http://goran.krampe.se/category/object-orientation/), [Programming](http://goran.krampe.se/category/programming/)
